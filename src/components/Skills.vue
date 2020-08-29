@@ -1,5 +1,5 @@
 <template>
-  <section class="section section--about" id="about" data-aos="fade-up" data-aos-duration="3000">
+  <section class="section section--about "  >
     <div class="section__inner">
       <div class="block">
 <!--        <a class="pre" href="#about"><span>#3</span>Skills</a>-->

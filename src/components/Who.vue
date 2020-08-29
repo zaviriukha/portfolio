@@ -7,9 +7,6 @@
           Valeriya Zaviriukha
         </h2>
         <ul class="anchornav">
-<!--          <li><a href="#intro">-->
-<!--            <div class="square"></div>-->
-<!--            Intro <span> What is going on?</span></a></li>-->
           <li><a href="#about">
             <div class="square"></div>
             PROFESSIONAL SKILLS AND ABILITIES<span> What I do?</span></a></li>
