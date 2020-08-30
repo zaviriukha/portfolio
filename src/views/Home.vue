@@ -3,7 +3,7 @@
     <Nav/>
 <!--    <Who/>-->
 
-    <section class="section section--hello fade-in-left" >
+    <section class="section section--hello" data-aos="fade-right" data-aos-duration="2500">
       <div class="section__inner">
         <div class="block">
           <!--        <a class="pre" href="#intro"><span>#1</span>Hello</a>-->
@@ -40,12 +40,12 @@
       </div>
     </section>
 
-    <Skills v-animate-onscroll="'animated zoomInLeft'" id="about"/>
-    <Portfolio id="clients"/>
-    <WorkExperience id="portfolio"/>
-    <Education id="caching"/>
-    <Languages id="streaming" v-animate-onscroll="'animated zoomInLeft'"/>
-    <Contact id="contact"/>
+    <Skills  data-aos="fade-right" data-aos-duration="2500" id="about"/>
+    <Portfolio data-aos="fade-right" data-aos-duration="2500" id="clients"/>
+    <WorkExperience data-aos="fade-right" data-aos-duration="2500" id="portfolio"/>
+    <Education data-aos="fade-right" data-aos-duration="2500" id="caching"/>
+    <Languages data-aos="fade-right" data-aos-duration="2500" id="streaming"/>
+    <Contact data-aos="fade-right" data-aos-duration="2500" id="contact"/>
   </div>
 </template>
 

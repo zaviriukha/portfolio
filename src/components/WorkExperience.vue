@@ -1,5 +1,5 @@
 <template>
-  <section class="section section--portfolio" id="portfolio" data-aos="fade-up" data-aos-duration="3000">
+  <section class="section section--portfolio" id="portfolio">
     <div class="section__inner">
       <div class="block">
 <!--        <a class="pre" href="#portfolio"><span>#5</span>EXPERIENCE </a>-->

@@ -3,7 +3,7 @@
     <div class="side__inner">
       <div class="top"><a href="#">Valeriya Zaviriukha</a></div>
       <div class="bottom">
-        <a href="anthony.t.lucas@gmail.com">EMAIL ME</a>
+        <a href="#" v-scroll-to="'#contact'">CONTACT ME</a>
       </div>
     </div>
   </nav>

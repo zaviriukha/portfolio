@@ -1,5 +1,5 @@
 <template>
-  <section class="section section--Caching" id="Caching" data-aos="fade-down" data-aos-duration="3000">
+  <section class="section section--Caching" id="Caching" >
     <div class="section__inner">
       <div class="block">
         <h2>EDUCATION</h2>
