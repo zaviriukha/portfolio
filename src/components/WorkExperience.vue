@@ -2,11 +2,10 @@
   <section class="section section--portfolio" id="portfolio">
     <div class="section__inner">
       <div class="block">
-<!--        <a class="pre" href="#portfolio"><span>#5</span>EXPERIENCE </a>-->
         <h2>WORK EXPERIENCE:</h2>
         <table class="lead">
           <tr>
-            <td><b> Diamatic LLC </b></td>
+            <td class="company"><b> Diamatic LLC </b></td>
           </tr>
           <tr>
             <td><i> Front-End Developer </i></td>
@@ -56,7 +55,7 @@
           </tr>
 
           <tr>
-            <td><b> DevDroid </b></td>
+            <td class="company"><b> DevDroid </b></td>
           </tr>
           <tr>
             <td><i> Front-End Developer </i></td>
@@ -81,7 +80,7 @@
             <td>Website layout</td>
           </tr>
           <tr>
-            <td><b> IMQ </b></td>
+            <td class="company"><b> IMQ </b></td>
           </tr>
 
           <tr>

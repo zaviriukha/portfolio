@@ -6,7 +6,6 @@
     <section class="section section--hello" data-aos="fade-right" data-aos-duration="2500">
       <div class="section__inner">
         <div class="block">
-          <!--        <a class="pre" href="#intro"><span>#1</span>Hello</a>-->
           <h2> FRONT-END DEVELOPER <br>
             Valeriya Zaviriukha
           </h2>

@@ -2,22 +2,17 @@
   <section class="section section--clients" id="clients">
     <div class="section__inner">
       <div class="block">
-<!--        <a class="pre" href="#clients"><span>#4</span>PORTFOLIO</a>-->
         <h2>PORTFOLIO</h2>
-        <table class="lead">
-          <tr>
-            <td>
-              <div class="square"></div>
-            </td>
-            <td><a href="http://z-pholio.space/">http://z-pholio.space/</a></td>
-          </tr>
-          <tr>
-            <td>
-              <div class="square"></div>
-            </td>
-            <td><a href="http://golgcoach.z-pholio.space/">http://golgcoach.z-pholio.space/</a></td>
-          </tr>
-        </table>
+        <ul class="anchornav">
+          <li>
+            <div class="square"></div>
+            <a href="http://z-pholio.space/">http://z-pholio.space/</a>
+          </li>
+          <li>
+            <div class="square"></div>
+            <a href="http://golgcoach.z-pholio.space/">http://golgcoach.z-pholio.space/</a>
+          </li>
+        </ul>
       </div>
     </div>
   </section>

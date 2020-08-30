@@ -1,10 +1,24 @@
-/*@import url('https://rsms.me/inter/inter.css');*/
-/*@import url('https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css');*/
-/*@import url('https://unpkg.com/aos@next/dist/aos.css');*/
+@font-face {
+    font-family: HKGrotesk-Regular;
+    src: url(../assets/fonts/HKGrotesk-Regular.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: HKGrotesk-Bold;
+    src: url(../assets/fonts/HKGrotesk-Bold.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: HKGrotesk-Italic;
+    src: url(../assets/fonts/HKGrotesk-Italic.woff) format("woff");
+    font-display: swap;
+}
 
 html {
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: HKGrotesk-Regular;
     color:white;
     font-size: 16px;
 }
@@ -115,15 +129,13 @@ table{
 }
 
 td {
-    padding: 10px 5px;
+    padding: 0 5px;
 }
-
-
 
 *, *::before, *::after {
     box-sizing: inherit;
     margin: auto;
-    padding: 0px;
+    padding: 0;
     align-items: center;
 }
 
@@ -133,25 +145,20 @@ a {
 
 #app {
     background: linear-gradient(#e66465, #9198e5)!important;
-    /*height: auto;*/
 }
 
 .desc{
     line-height: 2em;
 }
 
-
 .square {
     width: 10pt;
     height: 10px;
-    margin: 10px 20px;
+    margin: 8px 15px;
     display: inline-block;
     background-color: white;
 }
 
-/**
- * The fixed Side
- */
 .side {
     position: fixed;
     top: 0;
@@ -161,7 +168,7 @@ a {
     width: 50px;
     border-right: 1px dashed rgba(1.0,1.0, 1.0, 0.1);
     color: white;
-    font-family: "inter", sans-serif;
+    font-family: HKGrotesk-Regular;
     text-transform: uppercase;
     letter-spacing: .0875rem;
     font-size: 10px;
@@ -233,12 +240,12 @@ a {
     display: none;
 }
 .anchornav a {
-    display: block;
-    padding: 0.5em 0;
-    font-family: "Inter", sans-serif;
+    display: inline-block;
+    padding: 0.2em 0;
+    font-family: HKGrotesk-Regular;
     text-transform: uppercase;
     font-size: 25px;
-    letter-spacing: 1.6px;
+    letter-spacing: 1px;
     color: inherit;
     -webkit-transition: all 0.3s cubic-bezier(0.05, 0.69, 0.14, 1);
     transition: all 0.3s cubic-bezier(0.05, 0.69, 0.14, 1);
@@ -248,7 +255,7 @@ a {
     padding: .5em 0 0;
     opacity: .7;
     letter-spacing: normal;
-    font-family: "ff-meta-serif-web-pro", serif;
+    font-family: HKGrotesk-Regular;
     text-transform:none;
     color: #fdfdfd;
 }
@@ -261,9 +268,6 @@ a {
     color: #05b1f3;
 }
 
-/**
- * The different sections
- */
 .section {
     position: relative;
     display: -webkit-box;
@@ -334,7 +338,6 @@ a {
     fill:  rgb(8, 8, 8);
 }
 
-
 .section.section--Caching {
     background:linear-gradient( #2a2f5e, #7c2525);
     color: rgb(8, 8, 8);
@@ -352,7 +355,6 @@ a {
     top: -50px;
     fill:  rgb(8, 8, 8);
 }
-
 
 .section.section--Streaming svg {
     top: -20px;
@@ -388,11 +390,8 @@ a {
     fill: white;
 }
 
-/**
- * Typo
- */
 h1, .h1, h2, .h2, h3, .h3, h4, .h5 {
-    font-family: "inter", sans-serif;
+    font-family: HKGrotesk-Regular;
     font-weight: bold;
     margin: 0 0 0.5em;
     line-height: 1;
@@ -477,11 +476,12 @@ p a:hover {
 }
 
 .educ{
-    border-spacing: 50px;
-    display: block;
     font-size: .875rem;
-    margin: 0;
-    border-spacing: 50px
+    color: white;
+}
+
+.educ p{
+    margin-bottom: 10px;
 }
 
 @media (min-width: 30rem) {
@@ -564,32 +564,11 @@ p a:hover {
     opacity: .7;
 }
 
-.fade-in-left {
-    -webkit-animation: fade-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-    animation: fade-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+.company{
+    font-family: HKGrotesk-Bold;
 }
 
-@-webkit-keyframes fade-in-left {
-    0% {
-        -webkit-transform: translateX(-50px);
-        transform: translateX(-50px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-@keyframes fade-in-left {
-    0% {
-        -webkit-transform: translateX(-50px);
-        transform: translateX(-50px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
+.lang{
+    display: flex;
+    flex-direction: row
 }
