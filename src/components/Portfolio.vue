@@ -17,23 +17,6 @@
           git-href="https://github.com/zaviriukha/vue-crm"
       />
 
-      <AppCard
-          :img="createAcc"
-          title="Home bookkeeping"
-          desc="Home money accounting system. Bilingual"
-          demo-name="Some link"
-          git-link="GitHub project link"
-      />
-
-      <AppCard
-          :img="createAcc"
-          title="Home bookkeeping"
-          desc="Home money accounting system. Bilingual"
-          demo-name="Some link"
-          git-link="GitHub project link"
-      />
-
-
     </div>
   </section>
 </template>
