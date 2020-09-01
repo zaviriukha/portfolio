@@ -457,7 +457,7 @@ p {
 }
 @media (min-width: 30rem) {
     p {
-        font-size: .875rem;
+        font-size: .675rem;
     }
 }
 p a {

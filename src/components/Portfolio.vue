@@ -3,27 +3,63 @@
     <div class="section__inner">
       <div class="block">
         <h2>PORTFOLIO</h2>
-        <ul class="anchornav">
-          <li>
-            <div class="square"></div>
-            <a href="http://z-pholio.space/">http://z-pholio.space/</a>
-          </li>
-          <li>
-            <div class="square"></div>
-            <a href="http://golgcoach.z-pholio.space/">http://golgcoach.z-pholio.space/</a>
-          </li>
-        </ul>
       </div>
+    </div>
+
+    <div class="flex-row">
+      <AppCard
+          :img="createAcc"
+          title="Home bookkeeping"
+          desc="Home money accounting system. Bilingual"
+          demo-name="Home bookkeeping"
+          url='https://home-bookkeeping.netlify.app/'
+          git-link="github.com/zaviriukha/vue-crm"
+          git-href="https://github.com/zaviriukha/vue-crm"
+      />
+
+      <AppCard
+          :img="createAcc"
+          title="Home bookkeeping"
+          desc="Home money accounting system. Bilingual"
+          demo-name="Some link"
+          git-link="GitHub project link"
+      />
+
+      <AppCard
+          :img="createAcc"
+          title="Home bookkeeping"
+          desc="Home money accounting system. Bilingual"
+          demo-name="Some link"
+          git-link="GitHub project link"
+      />
+
+
     </div>
   </section>
 </template>
 
 <script>
+import AppCard from "@/components/app/AppCard";
+
 export default {
-  name: "Portfolio"
+  name: "Portfolio",
+  components: {AppCard},
+  computed: {
+    createAcc() {
+      return require('@/assets/img/24m.jpg')
+    },
+  }
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+.flex-row {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  flex-flow: row wrap;
+  // overflow: hidden;
+}
 
 </style>
